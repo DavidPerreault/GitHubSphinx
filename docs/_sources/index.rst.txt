@@ -1,15 +1,20 @@
-Welcome to Krash's documentation!
+Maestro Auto-documentation!
 ====================================
 
-Hey look, it worked.
+How to update auto-documentation manually.
+ 1. Update Sphinx folder with new code.
+ 2. CMD -> Make Clean.
+ 3. CMD -> Make HTML.
+ 4. Copy _build/HTML contents  to Github../docs repo.
+
+To Do: Automate that.
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-   HelloWorld <HelloWorld.rst>
-   Configurations <conf.rst>
+   Python Code Auto-documented <HelloWorld.rst>
    ./demo.ipynb
    
 Indices and tables

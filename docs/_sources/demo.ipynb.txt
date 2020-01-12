@@ -4,7 +4,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Krash got this bitch working in Sphinx."
+    "## Jupyter Notebook auto-documented in Sphinx"
    ]
   },
   {
