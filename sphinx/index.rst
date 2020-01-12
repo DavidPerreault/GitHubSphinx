@@ -1,17 +1,17 @@
-.. Sphinx and Github documentation master file, created by
-   sphinx-quickstart on Sun Jan 12 15:51:52 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to Krash's documentation!
+====================================
 
-Welcome to Sphinx and Github's documentation!
-=============================================
+Hey look, it worked.
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-
-
+   
+   HelloWorld <HelloWorld.rst>
+   Configurations <conf.rst>
+   ./demo.ipynb
+   
 Indices and tables
 ==================
 
