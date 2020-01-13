@@ -1,5 +1,5 @@
-conf module
-===========
+To Do
+=====
 
 How to update auto-documentation manually.
  1. Update Sphinx folder with new code.
@@ -7,9 +7,4 @@ How to update auto-documentation manually.
  3. CMD -> make html.
  4. Copy _build/html contents  to Github../docs repo.
 
-To Do: Automate steps 1-4 to check Main code repo for changes. 
-
-
-   :members:
-   :undoc-members:
-   :show-inheritance:
+To Do: Automate steps 1-4 to check Main code repo for changes.
