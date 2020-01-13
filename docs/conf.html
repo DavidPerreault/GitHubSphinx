@@ -35,7 +35,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Jupyter Notebook auto-documented in Sphinx" href="demo.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -80,9 +81,10 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="HelloWorld.html">Python Code Auto-documented</a></li>
 <li class="toctree-l1"><a class="reference internal" href="demo.html">Jupyter Notebook auto-documented in Sphinx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">To-Do</a></li>
 </ul>
 
             
@@ -171,8 +173,28 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="module-conf">
-<span id="conf-module"></span><h1>conf module<a class="headerlink" href="#module-conf" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="conf-module">
+<h1>conf module<a class="headerlink" href="#conf-module" title="Permalink to this headline">¶</a></h1>
+<dl class="simple">
+<dt>How to update auto-documentation manually.</dt><dd><ol class="arabic simple">
+<li><p>Update Sphinx folder with new code.</p></li>
+<li><p>CMD -&gt; make clean.</p></li>
+<li><p>CMD -&gt; make html.</p></li>
+<li><p>Copy _build/html contents  to Github../docs repo.</p></li>
+</ol>
+</dd>
+</dl>
+<p>To Do: Automate steps 1-4 to check Main code repo for changes.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">members</dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">undoc-members</dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">show-inheritance</dt>
+<dd class="field-odd"><p></p></dd>
+</dl>
+</div></blockquote>
 </div>
 
 
@@ -180,6 +202,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="demo.html" class="btn btn-neutral float-left" title="Jupyter Notebook auto-documented in Sphinx" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
