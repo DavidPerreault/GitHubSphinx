@@ -5,7 +5,7 @@ Maestro Auto-documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   Python Code Auto-documented <HelloWorld.rst>
+   Python Code <HelloWorld.rst>
    ./demo.ipynb
    To-Do <conf.rst>
 Indices and tables
